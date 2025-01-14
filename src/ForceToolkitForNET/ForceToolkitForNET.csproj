@@ -38,8 +38,9 @@
     <ProjectReference Include="..\CommonLibrariesForNET\CommonLibrariesForNET.csproj" PrivateAssets="All" />
   </ItemGroup>
   <ItemGroup>
+    <PackageReference Include="Microsoft.Bcl.AsyncInterfaces" Version="9.0.0" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
-    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="7.6.1" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="8.3.0" />
   </ItemGroup>
   <Target Name="IncludeSalesforceCommon">
     <ItemGroup>

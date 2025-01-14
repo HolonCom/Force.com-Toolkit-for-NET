@@ -1,14 +1,14 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
+using System.Dynamic;
 using System.Linq;
 using System.Net.Http;
 using System.Threading.Tasks;
 using Salesforce.Common;
-using Salesforce.Common.Soql;
 using Salesforce.Common.Models.Json;
 using Salesforce.Common.Models.Xml;
-using System.Dynamic;
-using System.Collections;
+using Salesforce.Common.Soql;
 
 namespace Salesforce.Force
 {
